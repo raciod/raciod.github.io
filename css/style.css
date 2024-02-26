@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
 
 :root {
-    --color-body: #f8f9fa; /* Light gray for body text */
+    --color-body: hwb(210 97% 2% / 0.521); /* Light gray for body text */
     --color-heading: #ffffff; /* White for headings */
     --color-base: #0d1b2a; /* Navy blue for main background */
     --color-base2: #08141f; /* Slightly darker shade of navy blue */
@@ -83,6 +83,7 @@ img {
     text-transform: uppercase;
     color: #fff;
 }
+
 
 .navbar .nav-link:hover {
     color: var(--color-brand);
