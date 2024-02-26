@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
 
 :root {
-    --color-body: #aabcbf;
-    --color-heading: #ffffff;
-    --color-base: #033f47;
-    --color-base2: #19323C;
-    --color-brand: #F2545B;
-    --color-brand2: #deff58;
-    --sidbar-width: 240px;
+    --color-body: #f8f9fa; /* Light gray for body text */
+    --color-heading: #ffffff; /* White for headings */
+    --color-base: #0d1b2a; /* Navy blue for main background */
+    --color-base2: #08141f; /* Slightly darker shade of navy blue */
+    --color-brand: #2a9d8f; /* Blue-green for brand color */
+    --color-brand2: #6a0572; /* Purple for secondary brand color */
+    --sidbar-width: 240px; /* Sidebar width */
     --font-base: "Bai Jamjuree";
 }
 
 body {
-    background-color: var(--color-base2);
+    background-color: var(--color-base);
     color: var(--color-body);
     font-family: var(--font-base), sans-serif;
 }
@@ -106,7 +106,7 @@ img {
 .btn-brand:hover,
 .btn-brand:focus {
     background-color: var(--color-brand2);
-    color: var(--color-base);
+    color: #000000;
     border-color: var(--color-brand2);
 }
 
@@ -142,85 +142,6 @@ img {
     transform: scale(1.1);
 }
 
-#contact .form-control {
-    background-color: var(--color-base);
-    border-color: var(--color-base);
-    color: var(--color-body);
-}
-
-#contact .form-control:focus {
-    border-color: var(--color-brand);
-    box-shadow: none;
-}
-
-#contact .form-control::placeholder {
-    color: var(--color-body);
-}
-
-#contact input.form-control {
-    height: 44px;
-}
-
-.social-icons a {
-    width: 40px;
-    height: 40px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--color-base);
-    border-radius: 100px;
-    font-size: 24px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 80vh; /* Adjust the height as needed */
-}
-
-.form-group {
-    width: 100%;
-    max-width: 400px;
-    padding: 20px;
-    background-color: var(--color-base);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.form-group label {
-    font-weight: bold;
-}
-
-.form-control {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid var(--color-base);
-    border-radius: 5px;
-    background-color: #ecf6ff48;
-}
-
-.form-control:focus {
-    border-color: var(--color-brand2);
-    box-shadow: 0 0 0 0.25rem rgba(242, 84, 91, 0.25);
-}
-
-.btn-primary {
-    width: 100%;
-    padding: 10px;
-    background-color: var(--color-brand);
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.btn-primary:hover {
-    background-color: var(--color-brand2);
-    border-color: var(--color-brand2);
-    color: var(--color-base2);
+footer {
+    background-color: #2a9d90;
 }
