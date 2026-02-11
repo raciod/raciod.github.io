@@ -1,135 +1,127 @@
-baseURL: "https://raciod.github.io/"
-title: Raciod
-paginate: 5
-theme: PaperMod
+baseURL = "https://raciod.github.io/"
+title = "Raciod"
+paginate = 5
+theme = "PaperMod"
+languageCode = "en-us"
 
-enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
 
-minify:
-  disableXML: true
-  minifyOutput: true
+[minify]
+  disableXML = true
+  minifyOutput = true
 
-params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Raciod
-  description: "Security research, penetration testing, CTF writeups, and tech learning journal"
-  keywords: [Security, Pentesting, CTF, Hacking, Cybersecurity, Tech, Learning, Writeups, InfoSec]
-  author: Raciod
-  DateFormat: "January 2, 2006"
-  defaultTheme: dark # dark, light, auto
-  disableThemeToggle: false
+[params]
+  env = "production"
+  title = "Raciod"
+  description = "Security research, penetration testing, CTF writeups, and tech learning journal"
+  keywords = ["Security", "Pentesting", "CTF", "Hacking", "Cybersecurity", "Tech", "Learning", "Writeups", "InfoSec"]
+  author = "Raciod"
+  DateFormat = "January 2, 2006"
+  defaultTheme = "dark"
+  disableThemeToggle = false
 
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: true
-  tocopen: false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = false
 
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+  [params.assets]
+    favicon = "<link / abs url>"
+    favicon16x16 = "<link / abs url>"
+    favicon32x32 = "<link / abs url>"
+    apple_touch_icon = "<link / abs url>"
+    safari_pinned_tab = "<link / abs url>"
 
-  label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+  [params.label]
+    text = "Home"
+    icon = "/apple-touch-icon.png"
+    iconHeight = 35
 
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: Raciod
-    subtitle: "Security & Tech Blog"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+  [params.profileMode]
+    enabled = false
+    title = "Raciod"
+    subtitle = "Security & Tech Blog"
+    imageUrl = "<img location>"
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = "my image"
+    [[params.profileMode.buttons]]
+      name = "Posts"
+      url = "posts"
+    [[params.profileMode.buttons]]
+      name = "Tags"
+      url = "tags"
 
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there 👋"
-    Content: "Welcome to my security and tech blog. Here I share what I learn about pentesting, CTF challenges, and cybersecurity."
+  [params.homeInfoParams]
+    Title = "Hi there 👋"
+    Content = "Welcome to my security and tech blog. Here I share what I learn about pentesting, CTF challenges, and cybersecurity."
 
-  socialIcons:
-    - name: github
-      url: "https://github.com/raciod"
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/raciod"
 
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+  [params.cover]
+    hidden = true
+    hiddenInList = true
+    hiddenInSingle = true
 
-  editPost:
-    URL: "https://github.com/raciod/raciod.github.io/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  [params.editPost]
+    URL = "https://github.com/raciod/raciod.github.io/content"
+    Text = "Suggest Changes"
+    appendFilePath = true
 
-  # for search
-  # https://fusejs.io/api/options.html
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-    keys: ["title", "permalink", "summary", "content"]
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    limit = 10
+    keys = ["title", "permalink", "summary", "content"]
 
-menu:
-  main:
-    - identifier: posts
-      name: Posts
-      url: /posts/
-      weight: 10
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 20
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 30
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 40
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
 
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
-markup:
-  highlight:
-    noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+[[menu.main]]
+  identifier = "categories"
+  name = "Categories"
+  url = "/categories/"
+  weight = 20
 
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON # is necessary for search
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 40
+
+pygmentsUseClasses = true
+
+[markup.highlight]
+  noClasses = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
