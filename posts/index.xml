@@ -15,12 +15,5 @@
       <guid>https://raciod.github.io/posts/hello-world/</guid>
       <description>&lt;p&gt;Welcome to my blog, This is my first POST.&lt;/p&gt;</description>
     </item>
-    <item>
-      <title></title>
-      <link>https://raciod.github.io/posts/test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raciod.github.io/posts/test/</guid>
-      <description>&lt;p&gt;this for testing the script&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
