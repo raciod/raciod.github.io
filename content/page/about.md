@@ -2,5 +2,5 @@
 title: "About"
 ---
 
-Hi, I’m Raciod.  
+Hi, I’m Rachid.  
 This is my blog.
