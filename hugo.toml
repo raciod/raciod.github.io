@@ -8,3 +8,5 @@ theme = "PaperMod"
   ShowReadingTime = true
   ShowCodeCopyButtons = true
   disableThemeToggle = false
+
+  mainSections = ["posts"]
