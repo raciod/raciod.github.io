@@ -1,8 +1,10 @@
 baseURL = "https://raciod.github.io/"
 title = "Raciod"
-paginate = 5
 theme = "PaperMod"
 languageCode = "en-us"
+
+[pagination]
+  pagerSize = 5
 
 enableRobotsTXT = true
 buildDrafts = false
