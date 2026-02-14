@@ -6,6 +6,77 @@
     <description>Recent content in Tags on Raciod</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 13 Feb 2026 12:07:29 +0000</lastBuildDate>
     <atom:link href="https://raciod.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cms-Made-Simple</title>
+      <link>https://raciod.github.io/tags/cms-made-simple/</link>
+      <pubDate>Fri, 13 Feb 2026 12:07:29 +0000</pubDate>
+      <guid>https://raciod.github.io/tags/cms-made-simple/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ctf</title>
+      <link>https://raciod.github.io/tags/ctf/</link>
+      <pubDate>Fri, 13 Feb 2026 12:07:29 +0000</pubDate>
+      <guid>https://raciod.github.io/tags/ctf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gobuster</title>
+      <link>https://raciod.github.io/tags/gobuster/</link>
+      <pubDate>Fri, 13 Feb 2026 12:07:29 +0000</pubDate>
+      <guid>https://raciod.github.io/tags/gobuster/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nmap</title>
+      <link>https://raciod.github.io/tags/nmap/</link>
+      <pubDate>Fri, 13 Feb 2026 12:07:29 +0000</pubDate>
+      <guid>https://raciod.github.io/tags/nmap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privilege-Escalation</title>
+      <link>https://raciod.github.io/tags/privilege-escalation/</link>
+      <pubDate>Fri, 13 Feb 2026 12:07:29 +0000</pubDate>
+      <guid>https://raciod.github.io/tags/privilege-escalation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sqli</title>
+      <link>https://raciod.github.io/tags/sqli/</link>
+      <pubDate>Fri, 13 Feb 2026 12:07:29 +0000</pubDate>
+      <guid>https://raciod.github.io/tags/sqli/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ssh</title>
+      <link>https://raciod.github.io/tags/ssh/</link>
+      <pubDate>Fri, 13 Feb 2026 12:07:29 +0000</pubDate>
+      <guid>https://raciod.github.io/tags/ssh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tryhackme</title>
+      <link>https://raciod.github.io/tags/tryhackme/</link>
+      <pubDate>Fri, 13 Feb 2026 12:07:29 +0000</pubDate>
+      <guid>https://raciod.github.io/tags/tryhackme/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vim</title>
+      <link>https://raciod.github.io/tags/vim/</link>
+      <pubDate>Fri, 13 Feb 2026 12:07:29 +0000</pubDate>
+      <guid>https://raciod.github.io/tags/vim/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Writeup</title>
+      <link>https://raciod.github.io/tags/writeup/</link>
+      <pubDate>Fri, 13 Feb 2026 12:07:29 +0000</pubDate>
+      <guid>https://raciod.github.io/tags/writeup/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

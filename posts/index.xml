@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Raciod</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 12:07:29 +0000</lastBuildDate>
     <atom:link href="https://raciod.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple CTF TryHackMe</title>
+      <link>https://raciod.github.io/posts/simple-ctf-tryhackme/</link>
+      <pubDate>Fri, 13 Feb 2026 12:07:29 +0000</pubDate>
+      <guid>https://raciod.github.io/posts/simple-ctf-tryhackme/</guid>
+      <description>Complete walkthrough of the Simple CTF room on TryHackMe - covering reconnaissance, SQL injection exploitation, and privilege escalation using vim</description>
+    </item>
     <item>
       <title>Hello World</title>
       <link>https://raciod.github.io/posts/hello-world/</link>

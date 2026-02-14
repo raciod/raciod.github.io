@@ -2,23 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://raciod.github.io/categories/</loc>
+    <lastmod>2026-02-13T12:07:29+00:00</lastmod>
+  </url><url>
+    <loc>https://raciod.github.io/tags/cms-made-simple/</loc>
+    <lastmod>2026-02-13T12:07:29+00:00</lastmod>
+  </url><url>
+    <loc>https://raciod.github.io/tags/ctf/</loc>
+    <lastmod>2026-02-13T12:07:29+00:00</lastmod>
+  </url><url>
+    <loc>https://raciod.github.io/categories/ctf/</loc>
+    <lastmod>2026-02-13T12:07:29+00:00</lastmod>
+  </url><url>
+    <loc>https://raciod.github.io/tags/gobuster/</loc>
+    <lastmod>2026-02-13T12:07:29+00:00</lastmod>
+  </url><url>
+    <loc>https://raciod.github.io/tags/nmap/</loc>
+    <lastmod>2026-02-13T12:07:29+00:00</lastmod>
+  </url><url>
     <loc>https://raciod.github.io/posts/</loc>
-    <lastmod>2026-02-14T12:07:29+00:00</lastmod>
+    <lastmod>2026-02-13T12:07:29+00:00</lastmod>
+  </url><url>
+    <loc>https://raciod.github.io/tags/privilege-escalation/</loc>
+    <lastmod>2026-02-13T12:07:29+00:00</lastmod>
   </url><url>
     <loc>https://raciod.github.io/</loc>
-    <lastmod>2026-02-14T12:07:29+00:00</lastmod>
+    <lastmod>2026-02-13T12:07:29+00:00</lastmod>
+  </url><url>
+    <loc>https://raciod.github.io/posts/simple-ctf-tryhackme/</loc>
+    <lastmod>2026-02-13T12:07:29+00:00</lastmod>
+  </url><url>
+    <loc>https://raciod.github.io/tags/sqli/</loc>
+    <lastmod>2026-02-13T12:07:29+00:00</lastmod>
+  </url><url>
+    <loc>https://raciod.github.io/tags/ssh/</loc>
+    <lastmod>2026-02-13T12:07:29+00:00</lastmod>
+  </url><url>
+    <loc>https://raciod.github.io/tags/</loc>
+    <lastmod>2026-02-13T12:07:29+00:00</lastmod>
+  </url><url>
+    <loc>https://raciod.github.io/tags/tryhackme/</loc>
+    <lastmod>2026-02-13T12:07:29+00:00</lastmod>
+  </url><url>
+    <loc>https://raciod.github.io/categories/tryhackme/</loc>
+    <lastmod>2026-02-13T12:07:29+00:00</lastmod>
+  </url><url>
+    <loc>https://raciod.github.io/tags/vim/</loc>
+    <lastmod>2026-02-13T12:07:29+00:00</lastmod>
+  </url><url>
+    <loc>https://raciod.github.io/tags/writeup/</loc>
+    <lastmod>2026-02-13T12:07:29+00:00</lastmod>
+  </url><url>
+    <loc>https://raciod.github.io/categories/writeups/</loc>
+    <lastmod>2026-02-13T12:07:29+00:00</lastmod>
   </url><url>
     <loc>https://raciod.github.io/posts/hello-world/</loc>
     <lastmod>2026-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://raciod.github.io/about/</loc>
   </url><url>
-    <loc>https://raciod.github.io/categories/</loc>
-  </url><url>
     <loc>https://raciod.github.io/page/</loc>
   </url><url>
     <loc>https://raciod.github.io/search/</loc>
-  </url><url>
-    <loc>https://raciod.github.io/tags/</loc>
   </url>
 </urlset>

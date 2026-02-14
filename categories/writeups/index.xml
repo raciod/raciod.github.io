@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Writeups on Raciod</title>
+    <link>https://raciod.github.io/categories/writeups/</link>
+    <description>Recent content in Writeups on Raciod</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Feb 2026 12:07:29 +0000</lastBuildDate>
+    <atom:link href="https://raciod.github.io/categories/writeups/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple CTF TryHackMe</title>
+      <link>https://raciod.github.io/posts/simple-ctf-tryhackme/</link>
+      <pubDate>Fri, 13 Feb 2026 12:07:29 +0000</pubDate>
+      <guid>https://raciod.github.io/posts/simple-ctf-tryhackme/</guid>
+      <description>Complete walkthrough of the Simple CTF room on TryHackMe - covering reconnaissance, SQL injection exploitation, and privilege escalation using vim</description>
+    </item>
+  </channel>
+</rss>
