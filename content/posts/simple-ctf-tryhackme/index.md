@@ -1,6 +1,6 @@
 ---
 title: "Simple CTF TryHackMe" 
-date: 2026-02-14T12:07:29+00:00 
+date: 2026-02-13T12:07:29+00:00 
 draft: false
 tags: ["tryhackme", "ctf", "writeup", "nmap", "gobuster", "sqli", "ssh", "privilege-escalation", "vim", "cms-made-simple"]
 categories: ["CTF", "TryHackMe", "Writeups"]
