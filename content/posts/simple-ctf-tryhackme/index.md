@@ -7,7 +7,6 @@ categories: ["CTF", "TryHackMe", "Writeups"]
 description: "Complete walkthrough of the Simple CTF room on TryHackMe - covering reconnaissance, SQL injection exploitation, and privilege escalation using vim"
 ---
 
-## Your Content Starts Here
 ## Introduction
 
 Before we start, I need to say that this is my first ever writeup and also my first CTF, so I hope you enjoy it.  
