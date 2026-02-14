@@ -18,8 +18,8 @@ For a working environment, you can go to [simple ctf](https://tryhackme.com/room
 nmap -sCV MACHINE_IP
 ```
 
-![[14-02-2026_10-29-29.png]]  
-![[14-02-2026_10-29-53.png]]
+![](14-02-2026_10-29-29.png)  
+![](14-02-2026_10-29-53.png)
 
 > How many services are running under port 1000?  
 2 
@@ -32,7 +32,7 @@ ssh
 So now from scanning we know that the server is running three services (ssh, ftp, http), and Anonymous FTP login is allowed.  
 Let's start with **http**:  
 If we check http://MACHINE_IP in the browser, we found nothing but the default Apache web page.  
-![[14-02-2026_10-39-04.png]] 
+![](14-02-2026_10-39-04.png) 
 We need to go deeper. 
 We can use gobuster to check for subdirectories.
 
@@ -40,13 +40,13 @@ We can use gobuster to check for subdirectories.
 gobuster dir -u http://MACHINE_IP -w /usr/share/wordlists/dirb/big.txt
 ```
 
-![[14-02-2026_10-44-10.png]] 
+![](14-02-2026_10-44-10.png) 
 We found a subdirectory called /simple/. Now if we go to the URL, we see this page.  
-![[14-02-2026_10-45-46.png]] 
+![](14-02-2026_10-45-46.png) 
 A little bit of research on the page and we found that this website uses a CMS called "CMS Made Simple", so maybe we can exploit that.  
-![[14-02-2026_10-46-07.png]] 
+![](14-02-2026_10-46-07.png) 
 If we check exploit database, we found a [CVE](https://www.exploit-db.com/exploits/46635).  
-![[14-02-2026_10-52-22.png]]
+![](14-02-2026_10-52-22.png)
 
 > What's the CVE you're using against the application?  
  CVE-2019-9053  
@@ -71,7 +71,7 @@ python3 csm_made_simple_injection.py -u http://MACHINE_IP/simple -w /usr/share/w
 ```
 
 Run the script and wait. Yay, we done it! We get the password and username.  
-![[14-02-2026_11-11-33.png]]
+![](14-02-2026_11-11-33.png)
 
 > What's the password?  
  secret 
@@ -80,7 +80,7 @@ Run the script and wait. Yay, we done it! We get the password and username.
 ssh 
 
 Now using the username and password we discovered, we can now try to SSH into the target machine.  
-![[14-02-2026_11-31-32.png]] 
+![](14-02-2026_11-31-32.png) 
 
 > What's the user flag?  
 G00d j0b, keep up!  
@@ -94,7 +94,7 @@ G00d j0b, keep up!
 sudo -l
 ```
 
-![[14-02-2026_11-33-27.png]] _Note_: `sudo -l` lists **what commands the current user is allowed to run with sudo privileges**
+![](14-02-2026_11-33-27.png) _Note_: `sudo -l` lists **what commands the current user is allowed to run with sudo privileges**
 
 > What can you leverage to spawn a privileged shell?  
 > vim
@@ -103,7 +103,7 @@ sudo -l
 sudo vim -c '!sh'
 ```
 
-![[14-02-2026_11-37-34.png]]
+![](14-02-2026_11-37-34.png)
 
 > What's the root flag?  
 > W3ll d0n3. You made it! 
