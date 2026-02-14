@@ -5,6 +5,7 @@ draft: false
 tags: ["tryhackme", "ctf", "writeup", "nmap", "gobuster", "sqli", "ssh", "privilege-escalation", "vim", "cms-made-simple"]
 categories: ["CTF", "TryHackMe", "Writeups"]
 description: "Complete walkthrough of the Simple CTF room on TryHackMe - covering reconnaissance, SQL injection exploitation, and privilege escalation using vim"
+summary: "My first CTF writeup! Complete walkthrough of TryHackMe's Simple CTF - exploiting CMS Made Simple SQLi vulnerability and escalating privileges with vim."
 ---
 
 ## Introduction
